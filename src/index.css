@@ -14,3 +14,15 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@layer utilities {
+  .text-outline {
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+  }
+
+  .text-outline-black {
+    -webkit-text-stroke: 1px black;
+    color: transparent;
+  }
+}

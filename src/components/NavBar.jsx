@@ -35,22 +35,22 @@ const NavBar = () => {
         btnText="BECOME A MEMBER"
         textColor="text-black"
         background="bg-[#d19f68]"
-        height="h-15"
+        height="h-13"
         width="w-auto"
-        padding="px-8 py-2"
+        padding="px-6 py-2"
         additionalClass="font-oswald text-sm font-semibold"
       />
     </>
   );
 
   return (
-    <div className="bg-black px-6 py-5 lg:px-40 lg:py-10 flex items-center justify-between relative">
+    <div className="absolute top-0 left-0 w-full z-10 px-6 py-5 lg:px-30 lg:py-10 flex items-center justify-between">
       <Link to='/'>
         <img src={logo} alt='Logo' className='w-28 cursor-pointer' />
       </Link>
 
       {/* Desktop Nav */}
-      <div className="hidden lg:flex gap-14 items-center">
+      <div className="hidden lg:flex gap-12 items-center">
         {navLinks}
       </div>
 

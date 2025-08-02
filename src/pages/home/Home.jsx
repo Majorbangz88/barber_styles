@@ -1,9 +1,13 @@
 import React from 'react'
+import Hero from './Hero'
+import AboutSection from './AboutSection'
 
 const Home = () => {
   return (
     <div>
-      HOME: I am the legendary home page!
+      <Hero />
+      <AboutSection />
+      {/* HOME: I am the legendary home page! */}
     </div>
   )
 }
