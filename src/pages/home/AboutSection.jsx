@@ -5,7 +5,7 @@ import Signature from '../../assets/signature.png'
 
 const AboutSection = () => {
   return (
-    <div className='bg-white px-6 py-18 md:py-44 items-center md:px-10 lg:py-44 lg:flex lg:justify-center ems-center lg:gap-20'>
+    <div className='bg-white px-6 py-18 items-center md:px-10 lg:py-44 lg:flex lg:justify-center ems-center lg:gap-20'>
       <div className='relative w-full lg:mx-0 lg:w-auto mb-10 lg:mb-0'>
         <div className='absolute top-5 left-5 w-full h-full bg-[#d19f68] hidden lg:block -z-10'></div>
 
