@@ -11,12 +11,12 @@ const ServicesSecton = () => {
         <p className='font-oswald font-bold text-lg text-black'>
           PROFESSIONAL SERVICES
         </p>
-        <p className='font-bold text-2xl md:text-3xl text-center lg:text-4xl text-black'>
+        <p className='font-bold text-2xl md:text-6xl text-center lg:text-6xl text-black'>
           OUR BEST SERVICES THAT WE <br /> ARE OFFERING TO YOU
         </p>
       </div>
 
-      <div className='flex flex-col gap-8 md:flex-row lg:flex-row'>
+      <div className='flex flex-col gap-8 md:flex-wrap lg:flex-row'>
 
         <div className='flex flex-col items-center bg-gray-100 gap-6 px-7 py-10 '>
           <div className=' relative flex items-end mt-9'>
