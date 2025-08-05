@@ -3,6 +3,8 @@ import Hero from './Hero'
 import AboutSection from './AboutSection'
 import ServicesSecton from './ServicesSecton'
 import TeamsSection from './TeamsSection'
+import PricingSection from './PricingSection'
+import ImageGallery from './ImageGallery'
 
 const Home = () => {
   return (
@@ -11,6 +13,8 @@ const Home = () => {
       <AboutSection />
       <ServicesSecton />
       <TeamsSection />
+      <PricingSection />
+      <ImageGallery />
       {/* HOME: I am the legendary home page! */}
     </div>
   )
