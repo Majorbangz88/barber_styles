@@ -5,6 +5,7 @@ import ServicesSecton from './ServicesSecton'
 import TeamsSection from './TeamsSection'
 import PricingSection from './PricingSection'
 import ImageGallery from './ImageGallery'
+import ReviewsSection from './ReviewsSection'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <TeamsSection />
       <PricingSection />
       <ImageGallery />
+      <ReviewsSection />
       {/* HOME: I am the legendary home page! */}
     </div>
   )
