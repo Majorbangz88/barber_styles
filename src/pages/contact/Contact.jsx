@@ -1,9 +1,12 @@
 import React from 'react'
+import Hero from './Hero'
+import ContactDetails from './ContactDetails'
 
 const Contact = () => {
   return (
     <div>
-      CONTACT: I will show you how to get in contact with us through various communication channels!
+      <Hero />
+      <ContactDetails />
     </div>
   )
 }

@@ -19,12 +19,16 @@ const RecentNewsSection = () => {
         <Link to={'/blog'}>
           <div className='group'>
             <div className='flex flex-col h-auto items-center border group-hover:border-1 group-hover:border-amber-400 transition group-hover:duration-300'>
-              <div className='overflow-hidden w-full'>
+              <div className='overflow-hidden w-full flex items-start relative'>
                 <img
                   src={HomeBlog1}
                   alt=''
-                  className='w-full h-auto group-hover:transition object-cover hover:scale-105 duration-300'
+                  className='relative z-0 w-full h-auto group-hover:transition object-cover group-hover:scale-105 duration-300'
                 />
+                <div className='absolute bottom-0 left-0 z-10 bg-black text-white w-25 h-25 group-hover:bg-[#d19f68] duration-300 flex flex-col items-center justify-center'>
+                  <p className='font-bold text-2xl'>24</p>
+                  <p className='font-bold text-lg'>NOV</p>
+                </div>
               </div>
 
               <div className='flex flex-col gap-3 py-6 w-[90%] md:w-[80%] lg:w-[70%]'>
@@ -40,24 +44,28 @@ const RecentNewsSection = () => {
 
         <Link to={'/blog'}>
           <div className='group'>
-          <div className='flex flex-col h-auto items-center border group-hover:border-1 group-hover:border-amber-400 transition group-hover:duration-300'>
-            <div className='overflow-hidden w-full'>
-              <img
-                src={HomeBlog2}
-                alt=''
-                className='w-full h-auto group-hover:transition object-cover hover:scale-105 duration-300'
-              />
-            </div>
+            <div className='flex flex-col h-auto items-center border group-hover:border-1 group-hover:border-amber-400 transition group-hover:duration-300'>
+              <div className='overflow-hidden w-full flex items-start relative'>
+                <img
+                  src={HomeBlog2}
+                  alt=''
+                  className='relative z-0 w-full h-auto group-hover:transition object-cover group-hover:scale-105 duration-300'
+                />
+                <div className='absolute bottom-0 left-0 z-10 bg-black text-white w-25 h-25 group-hover:bg-[#d19f68] duration-300 flex flex-col items-center justify-center'>
+                  <p className='font-bold text-2xl'>24</p>
+                  <p className='font-bold text-lg'>NOV</p>
+                </div>
+              </div>
 
-            <div className='flex flex-col gap-3 py-6 w-[90%] md:w-[80%] lg:w-[70%]'>
-              <p className='font-oswald text-black '>| Physics</p>
-              <p className='font-oswald text-black font-bold text-2xl md:text-2xl lg:text-3xl group-hover:text-[#d19f68] group-hover:duration-300 cursor-pointer'>
-                FOOTPRINTS IN TIME IS PERFECT HOUSE IN KURASHIKI
-              </p>
-              <p className='font-oswald text-black'>BECOME A MEMBER</p>
+              <div className='flex flex-col gap-3 py-6 w-[90%] md:w-[80%] lg:w-[70%]'>
+                <p className='font-oswald text-black '>| Physics</p>
+                <p className='font-oswald text-black font-bold text-2xl md:text-2xl lg:text-3xl group-hover:text-[#d19f68] group-hover:duration-300 cursor-pointer'>
+                  FOOTPRINTS IN TIME IS PERFECT HOUSE IN KURASHIKI
+                </p>
+                <p className='font-oswald text-black'>BECOME A MEMBER</p>
+              </div>
             </div>
           </div>
-        </div>
         </Link>
       </div>
     </div>

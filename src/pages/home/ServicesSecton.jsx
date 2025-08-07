@@ -18,9 +18,9 @@ const ServicesSecton = () => {
 
       <div className='flex flex-col gap-8 md:flex-wrap lg:flex-row'>
 
-        <div className='flex flex-col items-center bg-gray-100 gap-6 px-7 py-15'>
+        <div className='flex flex-col items-center bg-gray-100 gap-6 px-7 py-15 group'>
           <div className=' relative flex items-end mt-9'>
-            <div className='relative z-10 flex items-center justify-center bg-blue-950 hover:bg-[#d19f68] w-25 h-25'>
+            <div className='relative z-10 flex items-center justify-center bg-blue-950 group-hover:bg-[#d19f68] duration-300 w-25 h-25'>
               <FaDumbbell className='text-4xl text-gray-200' title='Workout' />
             </div>
             <img
@@ -36,9 +36,9 @@ const ServicesSecton = () => {
           </p>
         </div>
 
-        <div className='flex flex-col items-center bg-gray-100 gap-6 px-7 py-15'>
+        <div className='flex flex-col items-center bg-gray-100 gap-6 px-7 py-15 group'>
           <div className='relative flex items-end mt-9'>
-            <div className='relative z-10 flex items-center justify-center bg-blue-950 hover:bg-[#d19f68] w-25 h-25'>
+            <div className='relative z-10 flex items-center justify-center bg-blue-950 group-hover:bg-[#d19f68] duration-300 w-25 h-25'>
               <FaHandsHelping className='text-4xl text-gray-200' title='Massage' />
             </div>
             <img
@@ -54,9 +54,9 @@ const ServicesSecton = () => {
           </p>
         </div>
 
-        <div className='flex flex-col items-center bg-gray-100 gap-6 px-7 py-15'>
+        <div className='flex flex-col items-center bg-gray-100 gap-6 px-7 py-15 group'>
           <div className='relative flex items-end mt-9'>
-            <div className='relative z-10 flex items-center justify-center bg-blue-950 hover:bg-[#d19f68] w-25 h-25'>
+            <div className='relative z-10 flex items-center justify-center bg-blue-950 group-hover:bg-[#d19f68] duration-300 w-25 h-25'>
               <GiBeard className='text-4xl text-gray-200' title='Beard Styling' />
             </div>
             <img
