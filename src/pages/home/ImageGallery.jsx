@@ -11,7 +11,7 @@ const ImageGallery = () => {
         <p className='font-oswald font-semibold text-2xl text-black'>
           OUR IMAGE GALLERY
         </p>
-        <p className='font-bold text-4xl sm:text-wrap md:text-6xl lg:w-[50vh] lg:font-stretch-expanded text-center lg:text-6xl text-black'>
+        <p className='font-bold text-4xl md:text-6xl text-center lg:text-6xl text-black w-[70%]'>
           SOME IMAGES FROM OUR BARBER SHOP
         </p>
       </div>

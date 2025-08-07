@@ -34,6 +34,10 @@ const Reviews = [
     {
         name: "WILLIAM SALIBA",
         review: "Vestibulum varius, velit sit amet tempor efficitur, lingula mi lacinia libero, vehicula dui nisi eget purus. Integer cursus nibh non risus maximus dictum. Suspendis."
+    },
+    {
+        name: "WILLIAM SALIBA",
+        review: "Vestibulum varius, velit sit amet tempor efficitur, lingula mi lacinia libero, vehicula dui nisi eget purus. Integer cursus nibh non risus maximus dictum. Suspendis."
     }
 ]
 

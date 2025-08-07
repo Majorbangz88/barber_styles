@@ -19,7 +19,7 @@ const TeamsSection = () => {
         </div>
 
         <div className='flex flex-col gap-8 md:flex-wrap lg:flex-row'>
-          <div className='flex flex-col items-center cursor-pointer group'>
+          <div className='flex flex-col items-center cursor-pointer group overflow-hidden'>
             <img
               src={Team1}
               alt='Award winning stylist'
@@ -46,7 +46,7 @@ const TeamsSection = () => {
             </div>
           </div>
 
-          <div className='flex flex-col items-center cursor-pointer group'>
+          <div className='flex flex-col items-center cursor-pointer group overflow-hidden'>
             <img
               src={Team2}
               alt='Award winning stylist'
@@ -73,7 +73,7 @@ const TeamsSection = () => {
             </div>
           </div>
 
-          <div className='flex flex-col items-center cursor-pointer group'>
+          <div className='flex flex-col items-center cursor-pointer group overflow-hidden'>
             <img
               src={Team3}
               alt='Award winning stylist'

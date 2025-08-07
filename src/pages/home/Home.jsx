@@ -6,6 +6,7 @@ import TeamsSection from './TeamsSection'
 import PricingSection from './PricingSection'
 import ImageGallery from './ImageGallery'
 import ReviewsSection from './ReviewsSection'
+import RecentNewsSection from './RecentNewsSection'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <PricingSection />
       <ImageGallery />
       <ReviewsSection />
+      <RecentNewsSection />
       {/* HOME: I am the legendary home page! */}
     </div>
   )
