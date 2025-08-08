@@ -5,7 +5,7 @@ import ReviewsBg from '../../assets/section_bg02.png';
 
 const ReviewsSection = () => {
   return (
-    <div className='flex flex-col items-center justify-center py-60 overflow-hidden bg-cover bg-fixed relative z-0 bg-center bg-no-repeat'
+    <div className='flex flex-col items-center justify-center lg:py-60 overflow-hidden bg-cover bg-fixed relative z-0 bg-center bg-no-repeat'
         style={{backgroundImage: `url(${ReviewsBg})`, width: '100%', height: '70vh' }}
         >
       <div className='container mx-auto px-4'>

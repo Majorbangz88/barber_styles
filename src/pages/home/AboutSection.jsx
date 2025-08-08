@@ -33,7 +33,7 @@ const AboutSection = () => {
           Brook presents your services with flexible, convenient and multipurpose layouts. You can select your favorite.
         </p>
 
-        <div className='mt-[-3vh] md:mt-[-8vh] lg:mt-[-8vh] flex mx-auto lg:mx-0 items-center'>
+        <div className='overflow-hidden mt-[-3vh] md:mt-[-8vh] lg:mt-[-8vh] flex mx-auto lg:mx-0 items-center'>
           <img
             src={Signature}
             alt='Signature'
@@ -42,7 +42,7 @@ const AboutSection = () => {
           <img
             src={AboutShape}
             alt='Decorative Shape'
-            className=' '
+            className='md:ml-[-8vh]'
           />
         </div>
       </div>

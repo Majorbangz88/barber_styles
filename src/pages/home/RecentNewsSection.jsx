@@ -5,12 +5,12 @@ import HomeBlog2 from '../../assets/home-blog2.png';
 
 const RecentNewsSection = () => {
   return (
-    <div className='flex flex-col items-center justify-center bg-white py-48 px-6 gap-24'>
+    <div className='flex flex-col items-center justify-center bg-white py-20 md:py-48 lg:py-48 px-6 gap-24'>
       <div className='flex flex-col gap-10 items-center'>
         <p className='font-oswald font-semibold text-2xl text-black'>
           OUR RECENT NEWS
         </p>
-        <p className='font-bold text-4xl md:text-6xl text-center lg:text-6xl text-black w-[70%]'>
+        <p className='font-bold text-2xl md:text-6xl text-center lg:text-6xl text-black md:w-[70%] lg:w-[70%]'>
           HIPPOS AND TRICKS FROM RECENT BLOG
         </p>
       </div>

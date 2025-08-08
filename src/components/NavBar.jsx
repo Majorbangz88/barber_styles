@@ -10,7 +10,7 @@ const NavBar = () => {
 
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
-  const textColor = menuOpen || scrolled ? 'text-white' : 'text-white';
+  const textColor = menuOpen ? 'text-black' : (scrolled ? 'text-white' : 'text-white');
 
   // Scroll listener
   useEffect(() => {
@@ -65,7 +65,7 @@ const NavBar = () => {
       }`}
     >
       <Link to='/'>
-        <img src={logo} alt='Logo' className='w-38 cursor-pointer' />
+        <img src={logo} alt='Logo' className='w-28 md:w-38 lg:w-38 cursor-pointer' />
       </Link>
 
       {/* Desktop Nav */}

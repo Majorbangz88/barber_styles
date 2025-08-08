@@ -18,7 +18,7 @@ const Carousel = ({ reviews }) => {
   return (
     <div className='relative w-full lg:max-w-[110vh] mx-auto'>
       <div className='flex flex-col items-center gap-10'>
-        <div className='flex flex-col md:flex-row gap-16 transition-all duration-300'>
+        <div className='flex flex-col md:flex-row md:gap-16 lg:gap-16 transition-all duration-300'>
           {visibleReviews.map((review) => (
             <div
               key={review.name}

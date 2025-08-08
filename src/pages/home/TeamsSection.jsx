@@ -13,8 +13,8 @@ const TeamsSection = () => {
           <p className='font-oswald font-semibold text-2xl text-black'>
             PROFESSIONAL TEAMS
           </p>
-          <p className='font-bold text-4xl md:text-6xl text-center lg:text-6xl text-black'>
-            OUR AWARD WINNING HAIR CUT <br /> EXPERTS FOR YOU
+          <p className='font-bold text-2xl md:text-3xl text-center lg:text-6xl text-black md:w-[70%] lg:w-[70%]'>
+            OUR AWARD WINNING HAIR CUT EXPERTS FOR YOU
           </p>
         </div>
 

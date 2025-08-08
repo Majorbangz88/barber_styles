@@ -11,7 +11,7 @@ const PricingSection = () => {
           <p className='font-oswald font-semibold text-2xl text-black'>
             OUR BEST PRICING
           </p>
-          <p className='font-bold text-4xl md:text-6xl text-black leading-tight'>
+          <p className='font-bold text-2xl md:text-4xl text-black leading-tight'>
             WE PROVIDE BEST PRICE <br /> IN THE CITY!
           </p>
         </div>
@@ -86,7 +86,7 @@ const PricingSection = () => {
         </div>
       </div>
 
-      <div className="relative w-full max-w-[600px] lg:max-w-none lg:w-auto mt-10 lg:mt-0">
+      <div className="relative w-full max-w-[600px] md:right-16 lg:max-w-none lg:w-auto mt-10 lg:mt-0">
         <img
           src={PricingImg1}
           alt="Barber Working"
@@ -99,8 +99,7 @@ const PricingSection = () => {
           className="
             absolute 
             right-0 bottom-[20px]
-            w-[60%] 
-            sm:w-[60%] 
+            sm:w-[10%] 
             md:w-[45%] 
             lg:w-[65%] 
             lg:bottom-[25px] 
