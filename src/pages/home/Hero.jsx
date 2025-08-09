@@ -6,7 +6,7 @@ import { ArrowRight } from 'lucide-react';
 const Hero = () => {
   return (
     <div
-      className='h-[500px] md:h-screen lg:h-screen md:w-auto bg-cover bg-center bg-no-repeat bg-fixed relative z-0 flex items-baseline-last'
+      className='h-[500px] md:h-[75vh] lg:h-screen md:w-auto bg-cover bg-center bg-no-repeat bg-fixed relative z-0 flex items-baseline-last'
       style={{ backgroundImage: `url(${heroBg})` }}>
        
         <div className='flex flex-col w-full gap-10 md:gap-20 lg:gap-20'>
@@ -14,9 +14,8 @@ const Hero = () => {
             <p className='font-Oswald font-bold text-lg text-[#d19f68]'>
               WITH PATRICK POTTER
             </p>
-            <p className='font-Oswald text-lg md:text-6xl font-extrabold lg:text-6xl md:leading-16 lg:leading-16'>
-              OUR HAIR STYLES MAKE YOUR <br />
-              LOOK ELEGANT
+            <p className='font-Oswald text-lg md:text-5xl font-extrabold lg:text-6xl md:leading-16 lg:leading-16'>
+              OUR HAIR STYLES MAKE YOUR LOOK ELEGANT
             </p>
           </div>
           <div>
@@ -36,10 +35,10 @@ const Hero = () => {
               }
               textColor='text-black'
               background='bg-[#d19f68]'
-              height='w-[40vh] lg:h-26'
+              height='w-[30vh] lg:h-26'
               width='h-[6vh] lg:w-[70vh]'
               padding='px-3 md:px-6 md:py-4 lg:px-6 lg:py-4'
-              additionalClass='font-Oswald text-sm md:w-[50vh] font-semibold opacity-70'
+              additionalClass='font-Oswald text-sm md:w-[50vh] md:h-20 font-semibold opacity-70'
             />
           </div>
         </div>
