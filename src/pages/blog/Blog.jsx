@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Hero from './Hero';
+import BlogPosts from './BlogPosts';
 
 const Blog = () => {
   return (
     <div>
-      BLOG: Here, i give you inside stories, industry trends, as well as all relevant news!
+      <Hero />
+      <BlogPosts />
+      {/* BLOG: Here, i give you inside stories, industry trends, as well as all relevant news! */}
     </div>
   )
 }
