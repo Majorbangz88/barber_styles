@@ -51,21 +51,21 @@ const BlogPosts = () => {
                   alt='Blog Images'
                   className='w-full h-auto object-cover'
                 />
-                <div className='absolute bottom-[-8px] left-3 md:left-8 lg:left-15 w-15 h-17 rounded-lg flex flex-col px-2 py-3 items-center justify-center md:w-25 md:h-25 lg:w-25 lg:h-25 bg-[#d19f68] text-white'>
+                <div className='absolute bottom-[-8px] left-3 md:left-8 lg:left-15 w-15 h-17 rounded-lg flex flex-col px-2 py-3 items-center justify-center md:w-25 md:h-25 lg:w-25 lg:h-25 bg-[#d19f68] text-white cursor-pointer'>
                   <p className='font-bold text-2xl'>{day}</p>
                   <p className='font-semibold text-lg'>{monthName}</p>
                 </div>
               </div>
-              <div className='text-black font-oswald md:px-12 lg:px-15'>
-                <p className='font-bold text-[16px] md:text-2xl lg:text-2xl'>{blogPost.title}</p>
+              <div className='text-black font-oswald md:px-12 lg:px-15 group'>
+                <p className='font-bold text-[16px] md:text-2xl lg:text-2xl group-hover:text-[#d19f68] cursor-pointer'>{blogPost.title}</p>
                 <p className=' leading-8'>{getExcerpt(blogPost.text)}</p>
-                <div className='flex gap-3 mt-8'>
-                  <div className='flex text-sm font-oswald items-baseline-last gap-1 text-gray-400'>
+                <div className='flex gap-3 mt-8 '>
+                  <div className='flex text-sm font-oswald items-baseline-last gap-1 text-gray-400 group-hover:text-[#d19f68] cursor-pointer'>
                     <FaUserAlt />
                     <p className='font-semibold'>{blogPost.author}</p>
                   </div>
                   <p>|</p>
-                  <div className='flex text-sm font-oswald items-baseline-last gap-1 text-gray-400'>
+                  <div className='flex text-sm font-oswald items-baseline-last gap-1 text-gray-400 group-hover:text-[#d19f68] cursor-pointer'>
                     <FaComments />
                     <p className='font-semibold'>
                       {blogPost.commentCount} {commentCount}
@@ -77,7 +77,7 @@ const BlogPosts = () => {
           );
         })}
       </div>
-      <div className='flex flex-col gap-18 w-full md:w-auto lg:w-auto px-8'>
+      <div className='flex flex-col gap-18 w-full md:w-auto lg:w-auto px-4'>
         <div className='flex flex-col gap-5'>
           <div className='flex'>
             <input
@@ -120,21 +120,21 @@ const BlogPosts = () => {
                 <p className='font-sm'>02 Hours ago</p>
               </div>
             </div>
-            <div className='flex gap-4 items-center4'>
+            <div className='flex gap-4 items-center'>
               <img src={Post2} alt='' />
               <div className='text-black font-oswald'>
                 <p className='font-bold font-xl'>Astronomy or Astrology</p>
                 <p className='font-sm'>03 Hours ago</p>
               </div>
             </div>
-            <div className='flex gap-4 items-center4'>
+            <div className='flex gap-4 items-center'>
               <img src={Post3} alt='' />
               <div className='text-black font-oswald'>
                 <p className='font-bold font-xl'>Asteroids Telescope</p>
                 <p className='font-sm'>06 Hours ago</p>
               </div>
             </div>
-            <div className='flex gap-4 items-center4'>
+            <div className='flex gap-4 items-center'>
               <img src={Post4} alt='' />
               <div className='text-black font-oswald'>
                 <p className='font-bold font-xl'>Minimalist Approach</p>
@@ -163,12 +163,11 @@ const BlogPosts = () => {
           <p className='font-bold text-xl'>Instagram Feeds</p>
           
           <div className='flex flex-col gap-5'>
-            <div className='flex gap-5 md:gap-25 lg:gap-5'>
+            <div className='grid grid-cols-3 gap-5 md:gap-4'>
                 <img src={Post5} alt="" />
                 <img src={Post6} alt="" />
                 <img src={Post7} alt="" />
-            </div>
-            <div className='flex gap-5 md:gap-25 lg:gap-5'>
+            
                 <img src={Post6} alt="" />
                 <img src={Post9} alt="" />
                 <img src={Post10} alt="" />

@@ -13,12 +13,12 @@ const TeamsSection = () => {
           <p className='font-oswald font-semibold text-2xl text-black'>
             PROFESSIONAL TEAMS
           </p>
-          <p className='font-bold text-2xl md:text-5xl text-center lg:text-6xl text-black lg:w-[70%]'>
+          <p className='font-bold text-xl md:text-5xl text-center lg:text-6xl text-black lg:w-[70%]'>
             OUR AWARD WINNING HAIR CUT EXPERTS FOR YOU
           </p>
         </div>
 
-        <div className='flex flex-col gap-8 md:flex-wrap lg:flex-row'>
+        <div className='grid flex-col gap-8 md:grid-cols-2 lg:grid-cols-3'>
           <div className='flex flex-col items-center cursor-pointer group overflow-hidden'>
             <img
               src={Team1}
