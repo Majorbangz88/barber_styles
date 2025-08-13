@@ -10,7 +10,7 @@ const Hero = () => {
       style={{ backgroundImage: `url(${heroBg})` }}>
        
         <div className='flex flex-col w-full gap-10 md:gap-20 lg:gap-20'>
-          <div className='flex flex-col gap-7 px-4 md:px-14 lg:px-14'>
+          <div className='flex flex-col gap-7 px-4 md:px-14 lg:w-[120vh] lg:px-14'>
             <p className='font-Oswald font-bold text-lg text-[#d19f68]'>
               WITH PATRICK POTTER
             </p>
