@@ -13,6 +13,7 @@ import Post7 from '../../assets/posts/post_7.png';
 import Post8 from '../../assets/posts/post_8.png';
 import Post9 from '../../assets/posts/post_9.png';
 import Post10 from '../../assets/posts/post_10.png';
+import { Link } from 'react-router-dom'
 
 const BlogPosts = () => {
   const months = [
@@ -57,7 +58,9 @@ const BlogPosts = () => {
                 </div>
               </div>
               <div className='text-black font-oswald md:px-12 lg:px-15 group'>
-                <p className='font-bold text-[16px] md:text-2xl lg:text-2xl group-hover:text-[#d19f68] cursor-pointer'>{blogPost.title}</p>
+                <Link to={`/post/${blogPost.id}`}>
+                    <p className='font-bold text-[16px] md:text-2xl lg:text-2xl group-hover:text-[#d19f68] cursor-pointer'>{blogPost.title}</p>
+                </Link>
                 <p className=' leading-8'>{getExcerpt(blogPost.text)}</p>
                 <div className='flex gap-3 mt-8 '>
                   <div className='flex text-sm font-oswald items-baseline-last gap-1 text-gray-400 group-hover:text-[#d19f68] cursor-pointer'>

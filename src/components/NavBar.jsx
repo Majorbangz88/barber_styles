@@ -60,7 +60,7 @@ const NavBar = () => {
 
   return (
     <div
-      className={`fixed top-0 left-0 w-full z-50 px-6 py-5 lg:px-30 lg:py-10 flex items-center justify-between transition-all duration-300 ${
+      className={`fixed top-0 left-0 w-full z-50 px-6 py-5 lg:px-10 lg:items-center lg:justify-between lg:py-5 flex items-center justify-between transition-all duration-300 ${
         scrolled ? 'bg-black shadow-md' : 'bg-transparent'
       }`}
     >
@@ -69,7 +69,7 @@ const NavBar = () => {
       </Link>
 
       {/* Desktop Nav */}
-      <div className="hidden lg:flex gap-12 items-center">
+      <div className="hidden lg:flex lg:justify-between lg:items-center gap-12 items-center">
         {navLinks}
       </div>
 

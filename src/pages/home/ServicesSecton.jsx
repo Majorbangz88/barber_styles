@@ -5,7 +5,7 @@ import { GiBeard } from 'react-icons/gi';
 
 const ServicesSecton = () => {
   return (
-    <div className='flex flex-col bg-white items-center gap-20 py-18'>
+    <div className='flex flex-col bg-white items-center gap-20 py-18 px-6'>
 
       <div className='flex flex-col gap-10 items-center'>
         <p className='font-oswald font-bold text-lg text-black'>
@@ -18,7 +18,7 @@ const ServicesSecton = () => {
 
       <div className='grid flex-col gap-8 md:grid-cols-2 lg:grid-cols-3'>
 
-        <div className='flex flex-col items-center bg-gray-100 gap-6 px-7 py-15 group'>
+        <div className='flex flex-col items-center bg-gray-100 gap-6 px-5 w-auto md:px-7 lg:px-7 py-15 group'>
           <div className=' relative flex items-end mt-9'>
             <div className='relative z-10 flex items-center justify-center bg-blue-950 group-hover:bg-[#d19f68] duration-300 w-25 h-25'>
               <FaDumbbell className='text-4xl text-gray-200' title='Workout' />
