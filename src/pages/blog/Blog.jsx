@@ -8,7 +8,7 @@ const Blog = () => {
     <div>
       <Hero />
       <BlogPosts />
-      <BlogPost />
+      {/* <BlogPost /> */}
       {/* BLOG: Here, i give you inside stories, industry trends, as well as all relevant news! */}
     </div>
   )
