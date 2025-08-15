@@ -9,7 +9,7 @@ const ReviewsSection = () => {
         style={{backgroundImage: `url(${ReviewsBg})`, width: '100%', height: '70vh' }}
         >
       <div className='container mx-auto px-4'>
-        <h2 className='text-white text-3xl font-bold text-center mb-12'>
+        <h2 className='text-white text-3xl font-oswald font-bold text-center mb-12'>
           CLIENT TESTIMONIALS
         </h2>
         <Carousel reviews={ReviewsData} />

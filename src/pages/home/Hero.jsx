@@ -11,15 +11,15 @@ const Hero = () => {
        
         <div className='flex flex-col w-full gap-10 md:gap-20 lg:gap-20'>
           <div className='flex flex-col gap-7 px-4 md:px-14 lg:w-[120vh] lg:px-14'>
-            <p className='font-Oswald font-bold text-lg text-[#d19f68]'>
+            <p className='font-oswald font-bold text-lg text-[#d19f68]'>
               WITH PATRICK POTTER
             </p>
-            <p className='font-Oswald text-lg md:text-5xl font-extrabold lg:text-6xl md:leading-16 lg:leading-16'>
+            <p className='font-oswald text-lg md:text-5xl font-extrabold lg:text-6xl md:leading-16 lg:leading-16'>
               OUR HAIR STYLES MAKE YOUR LOOK ELEGANT
             </p>
           </div>
           <div>
-            <p className='font-Oswald font-extrabold text-3xl md:text-5xl px-4 md:px-9 lg:px-9 lg:text-9xl text-shadow-sm text-black text-outline opacity-15'>
+            <p className='font-oswald font-extrabold text-3xl md:text-5xl px-4 md:px-9 lg:px-9 lg:text-9xl text-shadow-sm text-black text-outline opacity-15'>
               GET MORE CONFIDENT
             </p>
           </div>

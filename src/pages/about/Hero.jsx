@@ -8,7 +8,7 @@ const Hero = () => {
         style={{ backgroundImage: `url(${Gallery3})` }}
     >
         <div className="absolute inset-0 bg-black opacity-75"></div>
-        <h1 className="relative text-white text-4xl md:text-5xl lg:6xl font-bold z-10">About Us</h1>
+        <h1 className="relative text-white text-4xl font-oswald md:text-5xl lg:6xl font-bold z-10">About Us</h1>
     </div>
   )
 }

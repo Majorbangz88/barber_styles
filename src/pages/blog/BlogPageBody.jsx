@@ -43,7 +43,7 @@ const BlogPageBody = () => {
           alt={post.title}
           className='w-full lg:w-[80vh] rounded-lg'
         />
-        <h1 className='text-xl md:text-2xl lg:text-3xl font-bold trxt-black text-black'>
+        <h1 className='text-xl font-oswald md:text-2xl lg:text-3xl font-bold trxt-black text-black'>
           {post.title}
         </h1>
 

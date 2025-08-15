@@ -59,7 +59,7 @@ const BlogPosts = () => {
               </div>
               <div className='text-black font-oswald md:px-12 lg:px-15 group'>
                 <Link to={`/post/${blogPost.id}`}>
-                    <p className='font-bold text-[16px] md:text-2xl lg:text-2xl group-hover:text-[#d19f68] cursor-pointer'>{blogPost.title}</p>
+                    <p className='font-bold font-oswald text-[16px] md:text-2xl lg:text-2xl group-hover:text-[#d19f68] cursor-pointer'>{blogPost.title}</p>
                 </Link>
                 <p className=' leading-8'>{getExcerpt(blogPost.text)}</p>
                 <div className='flex gap-3 mt-8 '>

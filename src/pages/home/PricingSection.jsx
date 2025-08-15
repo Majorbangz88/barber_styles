@@ -11,7 +11,7 @@ const PricingSection = () => {
           <p className='font-oswald font-semibold text-2xl text-black'>
             OUR BEST PRICING
           </p>
-          <p className='font-bold text-xl md:text-4xl text-black leading-tight'>
+          <p className='font-bold font-oswald text-xl md:text-4xl text-black leading-tight'>
             WE PROVIDE BEST PRICE <br /> IN THE CITY!
           </p>
         </div>

@@ -11,7 +11,7 @@ const ServicesSecton = () => {
         <p className='font-oswald font-bold text-lg text-black'>
           PROFESSIONAL SERVICES
         </p>
-        <p className='font-bold text-xl md:text-5xl text-center lg:text-6xl text-black'>
+        <p className='font-bold font-oswald text-xl md:text-5xl text-center lg:text-6xl text-black'>
           OUR BEST SERVICES THAT WE <br /> ARE OFFERING TO YOU
         </p>
       </div>
@@ -29,7 +29,7 @@ const ServicesSecton = () => {
               className='absolute bottom-0 left-[52%] w-20 z-0'
             />
           </div>
-          <p className='font-bold text-2xl text-blue-950'>Stylish Hair Cut</p>
+          <p className='font-bold text-2xl font-oswald text-blue-950'>Stylish Hair Cut</p>
           <p className='text-center leading-6 text-blue-950 w-68 md:w-60 lg:w-68'>
             Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor
             incididunt ut laborea.
@@ -47,7 +47,7 @@ const ServicesSecton = () => {
               className='absolute bottom-0 left-[52%] w-20 z-0'
             />
           </div>
-          <p className='font-bold text-2xl text-blue-950'>Body Massage</p>
+          <p className='font-bold text-2xl font-oswald text-blue-950'>Body Massage</p>
           <p className='text-center leading-6 text-blue-950 w-68 md:w-60 lg:w-68'>
             Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor
             incididunt ut laborea.
@@ -65,7 +65,7 @@ const ServicesSecton = () => {
               className='absolute bottom-0 left-[52%] w-20 z-0'
             />
           </div>
-          <p className='font-bold text-2xl text-blue-950'>Beard Style</p>
+          <p className='font-bold text-2xl font-oswald text-blue-950'>Beard Style</p>
           <p className='text-center leading-6 text-blue-950 w-68 md:w-60 lg:w-68'>
             Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor
             incididunt ut laborea.
